@@ -1,0 +1,97 @@
+@import url(https://fonts.googleapis.com/css?family=Iceberg);
+
+html, body{
+  height: 100%
+}
+
+body{
+  background-image: url('http://api.thumbr.it/whitenoise-361x370.png?background=000000ff&noise=626262&density=15&opacity=15');
+}
+
+#content{
+  padding-top: 2%;
+  color: #F29446;
+  letter-spacing: 1px;
+}
+
+#content > .row{
+  padding-top: 6%;
+}
+
+#content h1{
+  font-family: 'Iceberg';
+  font-size: 42px;
+}
+
+.controls > *{
+  display: inline-block;
+  font-size: 25px;
+}
+
+.value{
+  margin: 8px 0;
+}
+
+.btn{
+  padding: 2px 6px;
+  font-family: monospace;
+}
+
+#clock{
+  position: relative;
+  border: 2px solid #F29446;
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  margin: auto auto;
+}
+
+#hand{
+  height: 46%;
+  position: absolute;
+  border: 1px solid #F29446;
+  left: 50%;
+  top: 4%;
+  
+  transform-origin: 50% 100%;
+  transform: rotate(150deg) ;
+  -webkit-transform: rotate(150deg) ;
+  -moz-transform: rotate(150deg) ;
+  -o-transform: rotate(150deg) ;
+  -ms-transform: rotate(150deg) ;
+
+}
+
+#content h2{
+  margin-top: 3%;
+}
+
+#bclock{
+  position: relative;
+  border: 2px solid #F29446;
+  border-radius: 50%;
+  height: 130px;
+  width: 130px;
+  margin: auto auto;
+  margin-top: 35%;
+}
+
+#bhand{
+  height: 46%;
+  position: absolute;
+  border: 1px solid #F29446;
+  left: 50%;
+  top: 4%;
+  
+  transform-origin: 50% 100%;
+  transform: rotate(30deg) ;
+  -webkit-transform: rotate(30deg) ;
+  -moz-transform: rotate(30deg) ;
+  -o-transform: rotate(30deg) ;
+  -ms-transform: rotate(30deg) ;
+
+}
+
+#play-button, #reset-button{
+  cursor: pointer;
+}
